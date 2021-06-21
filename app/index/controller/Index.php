@@ -8,6 +8,7 @@ class Index extends BaseController
 {
     public function index()
     {
+        echo 'Hello World';
         return View::fetch();
     }
 }
