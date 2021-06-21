@@ -9,6 +9,7 @@ class Index extends BaseController
     public function index()
     {
         echo "git test！";
+        echo 'Hello Git';
         return View::fetch();
     }
 }
